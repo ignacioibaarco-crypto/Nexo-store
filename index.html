@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nexo Store</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+}
+
+header{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    margin:0;
+    font-size:28px;
+}
+
+header p{
+    margin-top:8px;
+    font-size:14px;
+    opacity:0.8;
+}
+
+.productos{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.info{
+    padding:15px;
+    text-align:center;
+}
+
+.info h3{
+    margin:10px 0;
+}
+
+.precio{
+    color:#27ae60;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.whatsapp{
+    display:block;
+    text-align:center;
+    background:#25D366;
+    color:white;
+    padding:15px;
+    margin:20px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:18px;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:15px;
+    font-size:14px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>NEXO STORE</h1>
+    <p>Tecnología y accesorios al mejor precio</p>
+</header>
+
+<section class="productos">
+
+<div class="card">
+    <img src="https://via.placeholder.com/300x200.png?text=Producto+1">
+    <div class="info">
+        <h3>Smartwatch Pro</h3>
+        <p class="precio">$45.000</p>
+        <p>Notificaciones, llamadas y más.</p>
+    </div>
+</div>
+
+<div class="card">
+    <img src="https://via.placeholder.com/300x200.png?text=Producto+2">
+    <div class="info">
+        <h3>Auriculares Bluetooth</h3>
+        <p class="precio">$12.500</p>
+        <p>Sonido potente y batería larga duración.</p>
+    </div>
+</div>
+
+<div class="card">
+    <img src="https://via.placeholder.com/300x200.png?text=Producto+3">
+    <div class="info">
+        <h3>Parlante Portátil</h3>
+        <p class="precio">$18.900</p>
+        <p>Ideal para llevar a todos lados.</p>
+    </div>
+</div>
+
+</section>
+
+<a class="whatsapp" href="https://wa.me/542617169407?text=Hola%20quiero%20comprar%20un%20producto%20de%20Nexo%20Store" target="_blank">
+📲 Contactar por WhatsApp
+</a>
+
+<footer>
+Envíos a todo el país • Atención personalizada
+</footer>
+
+</body>
+</html>
